@@ -1,6 +1,5 @@
 const cek = (text) =>{
-    let data = text
-    let reverse = data.split(' ').reverse()
+    let reverse = text.split(' ').reverse()
     let result = reverse.join(' ')
     console.log(result)
    }

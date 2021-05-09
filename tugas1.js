@@ -1,11 +1,10 @@
 const cek = (text) =>{
-    let data = text
-    let reverse = data.split('').reverse().join('')
-    if(reverse === data){
+    let reverse = text.split('').reverse().join('')
+    if(reverse === text){
         console.log('Palindrom')
     }else{
-        console.log(data)
+        console.log('Bukan Palindrom')
     }
    }
    
-   cek('kodok')
+   cek('lodok')
